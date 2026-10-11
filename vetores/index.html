@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atividade – Vetores</title>
+  <style>
+    :root { --roxo: #5b3cc4; --fundo: #f5f3fb; --texto: #22202e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 24px 16px; background: var(--fundo); color: var(--texto);
+           font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.5; }
+    main { max-width: 760px; margin: 0 auto; }
+    h1 { color: var(--roxo); margin-bottom: 4px; }
+    .sub { margin-top: 0; color: #6b6880; }
+    section { background: #fff; border-radius: 12px; padding: 20px; margin: 20px 0;
+              box-shadow: 0 2px 8px rgba(40, 20, 90, .08); }
+    h2 { margin-top: 0; font-size: 1.15rem; }
+    input { width: 100%; padding: 10px 12px; font-size: 1rem; border: 1px solid #cfc9e6;
+            border-radius: 8px; margin: 8px 0 12px; }
+    button { background: var(--roxo); color: #fff; border: 0; border-radius: 8px;
+             padding: 10px 18px; font-size: 1rem; cursor: pointer; }
+    button:hover { background: #4a2fa6; }
+    .saida { margin-top: 14px; padding: 12px; background: var(--fundo); border-radius: 8px; min-height: 24px; }
+    .saida p { margin: 4px 0; }
+    .erro { color: #b3261e; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Atividade – Vetores</h1>
+    <p class="sub">Lógica de Programação · Generation Brasil</p>
+
+    <section>
+      <h2>Exercício 1 – Ordenar um vetor em ordem decrescente</h2>
+      <label for="entrada1">10 números inteiros não ordenados:</label>
+      <input id="entrada1" value="2 5 1 3 4 9 7 8 10 6">
+      <button id="btn1">Ordenar</button>
+      <div class="saida" id="saida1"></div>
+    </section>
+
+    <section>
+      <h2>Exercício 2 – Índices ímpares, pares, soma e média</h2>
+      <label for="entrada2">10 números inteiros:</label>
+      <input id="entrada2" value="2 5 1 3 4 9 7 8 10 6">
+      <button id="btn2">Calcular</button>
+      <div class="saida" id="saida2"></div>
+    </section>
+  </main>
+
+  <script src="exercicios.js"></script>
+</body>
+</html>
